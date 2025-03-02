@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    background-color: #F0F1FF;
+   
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0px auto;
+    padding: 0 30px;
+}
+
+/* navbar */
+.navbar {
+    
+    color: #13183F;
+    height: 60px;
+}
+
+.navbar .logo {
+    font-size:20px;
+    font-weight: bold;
+}
+
+.nav-button {
+    font-size:15px;
+    font-weight: 600;
+    color: #fff;
+    width: 13%;
+    background-color: #13183F;
+    padding: 12px;
+    border-radius: 21px; 
+    border: 1px solid #000000;
+     border: none;
+    outline: none;
+}
+
+
+
+.nav-button2{
+    margin-top: 25px;
+    font-size:15px;
+    font-weight: 600;
+    color: #fff;
+    width: 27%;
+    background-color: #F02AA6;
+    padding: 15px;
+    border-radius: 23px; 
+    border: 1px solid #000000;
+     border: none;
+    outline: none;
+}
+
+.pic {
+width: 317;
+height: 560;
+/*left: 168px;*/
+
+}
+
+.left {
+    width: 50%;
+}
+
+.left p {
+    color: grey;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: lightblue;
+    transition: 0.35s;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+/* header */
+.header {
+    margin: 70px 0;
+    color: #fff;
+    min-height: 400px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #13183F;
+}
+
+.header img {
+    max-width: 400px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    margin: 18px auto; 
+     background-color: #F02AA6;
+    padding: 18px;
+    border-radius: 28px;
+
+}
+
+.box {
+    background-color: #fff;
+    flex: 1;
+    color: #83869A;
+    border-radius: 10px;
+    margin: 20px 10px;
+    border:1 px solid ;
+    padding: 15px 20px;
+}
+
+
+.boxes {
+    margin: 50px auto;
+}
+.bg {
+    background-color: #FF6F48;
+
+}
+
+.bg h2 {
+    margin: 30px auto;
+    width: 80%;
+    line-height: 30px;
+
+}
+.box-button {
+   border: none;
+    outline: none;
+    background-color: #fff;
+    color: #F74780;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 15px auto;
+    
+
+}
+.box h2 {
+    color: #333;
+}
+
+.box i {
+    margin-right: 10px;
+}
+
+.position {
+    position: relative;
+}
+.absolute {
+
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+  bottom: 60px;
+  left: -60px;
+}
+.absolute2 {
+
+    position: absolute;
+    width: 130px;
+    height: 90px;
+    background-color: #fff;
+    border-radius: 10px;
+  top: 70px;
+  right: -50px;
+}
+.ab {
+    padding: 20px 20px;
+}
+.absolute h2 {
+ color: #333;
+
+}
+
+.absolute h4 {
+ color: #83869A;
+ font-weight: lighter;
+ margin-bottom: 10px;
+
+}
+
+.ab2 {
+    padding: 20px 20px;
+}
+.absolute2 h2 {
+ color: #333;
+
+}
+
+.absolute2 h4 {
+ color: #83869A;
+ font-weight: lighter;
+ margin-bottom: 10px;
+
+}
+
+@media(max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+  
+
+  .absolute2, .absolute {
+    display: none;
+  }
+ 
+.left {
+    width: 100%;
+}
+
+ .boxes .container {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-button    {
+    font-size:11px;
+    font-weight: 400;
+    color: #fff;
+    width: 20%;
+    padding: 12px;
+    border-radius: 21px; 
+   
+}
+
+ .but_foot {
+    font-size:11px;
+    font-weight: 400;
+    color: #fff;
+    width: 20%;
+    background-color: #F02AA6;
+    padding: 12px;
+    border-radius: 21px; 
+   
+}
+
+
+}
+
+
+
+ 
+
+ .footer {
+
+    background-color: #13183F;
+    height: 60px;
+
+ }
+.footer .container {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.logo-footer {
+     font-size:20px;
+    font-weight: bold;
+    color: #fff;
+}
+ .but_foot {
+    font-size:15px;
+    font-weight: 600;
+    color: #fff;
+    width: 13%;
+    background-color: #F02AA6;
+    padding: 12px;
+    border-radius: 21px; 
+    border: 1px solid #000000;
+     border: none;
+    outline: none;
+}
+
